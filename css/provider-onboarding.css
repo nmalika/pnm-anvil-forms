@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body,
+.forge-flow {
+  font-family: 'Inter', serif;
+  background-color: #fff;
+}
+
+#header-title {
+  font-weight: 600;
+}
+
+#page-title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#page-title::after {
+  display: none;
+}
+
+
+.form-group .ant-form-item-label {
+  padding-bottom: 8px;
+}
+
+.form-group label > span {
+  font-weight: 500;
+}
+
+.form-group input {
+  border: 1px solid #DCDDE2;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+button.circle-icon-button-container[disabled] .button-circle {
+  background: transparent !important;
+}
+
+.ant-btn.ant-btn-cta, .ant-btn.ant-btn-cta:hover, .ant-btn.ant-btn-cta:active {
+  font-weight: 500;
+}
+
+
+.forge-flow > div:last-child {
+  background: #f8f8f8;
+  box-shadow: none;
+}
+
+.forge-page {
+  height: 100%;
+}
+
+.forge-page-description {
+  color: #767676;
+}
+
+
+body .ant-input:hover,
+body .ant-input:focus,
+body .ant-input:active,
+body .ant-form-item-has-error .ant-input:hover,
+body .ant-form-item-has-error .ant-input:active,
+body .ant-form-item-has-error .ant-input:focus {
+  border-right-width: 1px !important;
+}
+
+.form-group input:focus {
+  border: 1px solid #4a4dcd;
+  background-color: #F5F7FE;
+}
+
+.ant-btn {
+  border-radius: 5px;
+}
+
+.ant-btn.ant-btn-cta,
+.ant-btn.ant-btn-cta:hover,
+.ant-btn.ant-btn-cta:active {
+  background: #111111;
+  color: white;
+}
+
+.ant-btn.ant-btn-link,
+.ant-btn.ant-btn-link:hover,
+.ant-btn.ant-btn-link:active {
+  color: #5100FE;
+}
