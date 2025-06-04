@@ -19,6 +19,10 @@ body,
   display: none;
 }
 
+.anvil-button {
+  background: #5100FE;
+  color: white;
+}
 
 .form-group .ant-form-item-label {
   padding-bottom: 8px;
@@ -87,9 +91,4 @@ body .ant-form-item-has-error .ant-input:focus {
 .ant-btn.ant-btn-link:hover,
 .ant-btn.ant-btn-link:active {
   color: #5100FE;
-}
-
-:root {
-  --anvil-button-background: #5100FE;
-  --anvil-button-color: white;
 }
