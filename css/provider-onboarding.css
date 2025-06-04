@@ -89,7 +89,7 @@ body .ant-form-item-has-error .ant-input:focus {
   color: #5100FE;
 }
 
-.anvil-button {
-  background: #5100FE;
-  color: white;
+:root {
+  --anvil-button-background: #5100FE;
+  --anvil-button-color: white;
 }
