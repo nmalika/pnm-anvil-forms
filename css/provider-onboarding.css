@@ -27,6 +27,8 @@
   --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 0;
+
+  --circle-icon-icon: None;
 }
 
 body,
