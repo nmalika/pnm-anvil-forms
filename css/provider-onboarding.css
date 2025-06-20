@@ -31,15 +31,16 @@
   --field-input-focus-box-shadow: none;
 }
 
+html,
 body,
 .forge-flow {
   font-family: 'Inter', serif;
-  background-color: #fff;
+  background-color: #fff !important;
 }
-/* 
+
 #header-title {
   font-weight: 600;
-} */
+}
 
 #page-title {
   margin-bottom: 20px;
@@ -102,6 +103,11 @@ button.circle-icon-button-container[disabled] .button-circle {
   border: none;
 }
 
+.jlQEAU {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .anvil-webform-step-bar .anvil-circle-icon-button svg {
   color: grey;
 }
@@ -159,8 +165,8 @@ body .ant-form-item-has-error .ant-input:focus {
 .anvil-button-bar .ant-btn-link:hover,
 .anvil-button-bar .ant-btn-link:focus,
 .anvil-button-bar .ant-btn-link:active {
-  background: #111111;
-  color: white;
+  /* background: #111111; */
+  color: #767676;;
   border-radius: 8px;
   padding: 10px 20px;
   font-size: 0;
