@@ -6,15 +6,17 @@
   /******** webform-specific ********/
   --webform-title-font-weight: 600;
   --webform-title-font-style: normal;
-  --webform-title-font-size: 32px;
+  --webform-title-font-size: 28px;
   --webform-page-title-font-weight: 600;
   --webform-page-title-font-style: normal;
-  --webform-page-title-font-size: 22px;
+  --webform-page-title-font-size: 20px;
 
   /******** buttons ********/
   --button-border-radius: 6px;
   --button-disabled-background: #f5f5f5;
   --button-disabled-color: #d9d9d9;
+  --button-background: #111111;
+  --button-color: #fff;
 
   /******** fields ********/
   --field-label-font-weight: 500;
@@ -27,17 +29,17 @@
   --field-input-focus-box-shadow: none;
 }
 
-/* body,
+body,
 .forge-flow {
   font-family: 'Inter', serif;
   background-color: #fff;
 }
-
+/* 
 #header-title {
   font-weight: 600;
 } */
 
-/* #page-title {
+#page-title {
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -48,15 +50,16 @@
 
 .form-group {
   margin-bottom: 24px;
-} */
-/* 
+}
+
+
 .form-group .ant-form-item-label {
   padding-bottom: 8px;
 }
 
 .form-group label > span {
   font-weight: 500;
-} */
+}
 
 .form-group input {
   border: 1px solid #DCDDE2;
@@ -65,13 +68,13 @@
   padding: 10px 15px;
 }
 
-/* button.circle-icon-button-container[disabled] .button-circle {
+button.circle-icon-button-container[disabled] .button-circle {
   background: transparent !important;
 }
 
 .ant-btn.ant-btn-cta, .ant-btn.ant-btn-cta:hover, .ant-btn.ant-btn-cta:active {
   font-weight: 500;
-} */
+}
 
 .forge-flow {
   height: auto;
@@ -103,11 +106,6 @@
   flex-direction: column-reverse;
 }
 
-.forge-flow > div:last-child {
-  background: #fff;
-  box-shadow: none;
-}
-
 .forge-page {
   height: auto;
 }
@@ -125,25 +123,25 @@ body .ant-form-item-has-error .ant-input:active,
 body .ant-form-item-has-error .ant-input:focus {
   border-right-width: 1px !important;
 } */
-/* 
-.ant-btn {
-  border-radius: 5px;
-}
 
+/* .ant-btn {
+  border-radius: 5px;
+} */
+/* 
 .ant-btn.ant-btn-cta,
 .ant-btn.ant-btn-cta:hover,
 .ant-btn.ant-btn-cta:active {
   background: #111111;
   color: white;
-} */
-/* 
+}
+
 .ant-btn.ant-btn-link,
 .ant-btn.ant-btn-link:hover,
 .ant-btn.ant-btn-link:active {
   color: #111111;
 } */
 
-/* .anvil-content-card {
+.anvil-content-card {
   border: none;
   padding: 0;
   margin-bottom: 24px;
@@ -163,4 +161,4 @@ body .ant-form-item-has-error .ant-input:focus {
 .anvil-list-input-save-button.ant-btn-link {
   color: #767676;
   font-weight: 500;
-} */
+}
