@@ -75,11 +75,24 @@ button.circle-icon-button-container[disabled] .button-circle {
 
 .forge-flow {
   height: auto;
-  flex-direction: column-reverse;
 }
 
 .anvil-tooltip {
   display: none;
+}
+
+.anvil-webform-flow {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.anvil-button-bar {
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.anvil-webform-step-bar {
+  flex-direction: column-reverse;
 }
 
 .anvil-webform-page {
@@ -147,12 +160,4 @@ body .ant-form-item-has-error .ant-input:focus {
 .anvil-list-input-save-button.ant-btn-link {
   color: #767676;
   font-weight: 500;
-}
-
-.anvil-button-bar {
-  flex-direction: row-reverse;
-}
-
-.anvil-webform-step-bar {
-  flex-direction: column-reverse;
 }
