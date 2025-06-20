@@ -106,6 +106,11 @@ button.circle-icon-button-container[disabled] .button-circle {
 .jlQEAU {
   display: flex;
   justify-content: flex-end;
+  box-shadow: none;
+}
+
+.jkfRYf {
+  background: #fff;
 }
 
 .anvil-webform-step-bar .anvil-circle-icon-button svg {
