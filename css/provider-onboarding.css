@@ -28,8 +28,9 @@
   --field-input-background-color: transparent;
   --field-input-border-radius: 8px;
   --field-input-border: 2px solid #E0E0E0;
-  --field-input-focus-border-color: #D9D9D9;
+  --field-input-focus-border-color: #E0E0E0;
   --field-error-border-color: #C44040;
+  --field-input-hover-border-color: #E0E0E0;
 
   /******** radio buttons ********/
   --radio-buttons-selected-background: #777777;
@@ -56,6 +57,11 @@
   --dropzone-upload-button-hover-background: rgba(0, 0, 0, 1);
   --dropzone-upload-button-background: rgba(0, 0, 0, 1);
   --dropzone-upload-button-color: #fff;
+
+  --loading-spinner-color: #5100FE;
+
+  --root-link-color: #E8E4FF;
+  --root-link-hover-color: #5100FE;
 }
 
 html,
