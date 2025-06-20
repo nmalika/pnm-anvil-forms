@@ -27,8 +27,9 @@
   /* These are handled by .form-group input below */
   --field-input-background-color: transparent;
   --field-input-border-radius: 8px;
+  --field-input-border: 1px solid #777777;
   --field-input-focus-border-color: #D9D9D9;
-  --field-error-border-color: rgba(196, 64, 64, 0.1);
+  --field-error-border-color: #C44040;
 
   /******** radio buttons ********/
   --radio-buttons-selected-background: #777777;
@@ -95,6 +96,10 @@ button.circle-icon-button-container[disabled] .button-circle {
   height: auto;
 }
 
+/* Step bar text color */
+.gvOLR {
+  color: #777777;
+}
 
 /* Hide powered by anvil and logo */
 .anvil-tooltip {
@@ -108,7 +113,7 @@ button.circle-icon-button-container[disabled] .button-circle {
 
 /* Step bar */
 .anvil-webform-step-bar {
-  background: #fff;
+  background: #F9F7F5;
   border: none;
   padding: 1rem 3rem;
   display: flex;
@@ -118,13 +123,13 @@ button.circle-icon-button-container[disabled] .button-circle {
 
 /* Step forward and back circle buttons */
 .dbNvle .button-circle {
-  background: #F9F7F5;
+  background: #fff;
 }
 .anvil-webform-step-bar .anvil-circle-icon-button {
   border-radius: 8px;
 }
 .dbNvle .button-circle svg path, .dbNvle .button-circle svg rect, .dbNvle .button-circle svg circle {
-  fill: rgba(0, 0, 0, 0.6);
+  fill: #666666;
 }
 
 /* Hide step forward and back circle buttons when disabled */
