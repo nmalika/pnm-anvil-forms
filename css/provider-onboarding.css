@@ -166,22 +166,6 @@ body .ant-form-item-has-error .ant-input:focus {
   color: #767676;
 }
 
-.anvil-button-bar .ant-btn-link,
-.anvil-button-bar .ant-btn-link:hover,
-.anvil-button-bar .ant-btn-link:focus,
-.anvil-button-bar .ant-btn-link:active {
-  /* background: #111111; */
-  color: #767676;;
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 0;
-}
-
-.anvil-button-bar .ant-btn-link::before {
-  content: '🔖';
-  font-size: 16px;
-}
-
 .anvil-content-card {
   border: none;
   padding: 20px;
