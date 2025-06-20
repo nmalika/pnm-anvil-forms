@@ -87,13 +87,23 @@ button.circle-icon-button-container[disabled] .button-circle {
   gap: 20px;
 }
 
+.anvil-webform-step-bar {
+  background: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .anvil-webform-step-bar .anvil-circle-icon-button {
-  background-color: rgba(249, 247, 245, 1);
-  border-radius: 8px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  border: none;
 }
 
 .anvil-webform-step-bar .anvil-circle-icon-button svg {
-  color: rgba(0, 0, 0, 0.6);
+  color: grey;
 }
 
 .anvil-webform-flow {
