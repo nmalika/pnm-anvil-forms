@@ -133,6 +133,14 @@ body .ant-form-item-has-error .ant-input:focus {
 }
 
 .anvil-list-input-save-button.ant-btn-link {
-  color: #5100FE;
+  color: #767676;
   font-weight: 500;
+}
+
+.anvil-button-bar {
+  flex-direction: row-reverse;
+}
+
+.anvil-webform-step-bar {
+  flex-direction: row-reverse;
 }
