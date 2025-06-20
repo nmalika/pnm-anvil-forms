@@ -28,6 +28,13 @@
   --field-input-background-color: transparent;
   --field-input-focus-box-shadow: none;
   --field-input-border-radius: 8px;
+  --field-input-border-color: #D9D9D9;
+
+  /******** radio buttons ********/
+  --radio-buttons-selected-background: #D9D9D9;
+  --radio-buttons-selected-color: rgba(0, 0, 0, 1);
+  --radio-buttons-unselected-background: #fff;
+  --radio-buttons-unselected-border-color: rgba(0, 0, 0, 1);
 }
 
 html,
