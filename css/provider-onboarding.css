@@ -173,7 +173,8 @@ body .ant-form-item-has-error .ant-input:focus {
 } */
 
 .anvil-webform-save-and-continue-button {
-  background: none;
+  background: #111111;
+  color: white;
 }
 
 .anvil-content-card {
