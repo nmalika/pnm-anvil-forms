@@ -134,11 +134,7 @@ button.circle-icon-button-container[disabled] .button-circle {
   background: #fff;
 }
 
-
-.anvil-webform-step-bar .anvil-circle-icon-button svg {
-  color: grey;
-}
-
+/* Container that holds the main page and the stepper bar */
 .anvil-webform-flow {
   display: flex;
   flex-direction: column-reverse;
@@ -174,8 +170,7 @@ body .ant-form-item-has-error .ant-input:focus {
 .ant-btn.ant-btn-cta,
 .ant-btn.ant-btn-cta:hover,
 .ant-btn.ant-btn-cta:active {
-  background: #111111;
-  color: white;
+  color: #767676;
 }
 
 .ant-btn.ant-btn-link,
