@@ -12,11 +12,13 @@
   --webform-page-title-font-size: 20px;
 
   /******** buttons ********/
-  --button-border-radius: 6px;
+  --button-border-radius: 30px;
   --button-disabled-background: #f5f5f5;
   --button-disabled-color: #d9d9d9;
   --button-background: #111111;
   --button-color: #fff;
+  --button-padding-y: 10px;
+  --button-padding-x: 20px;
 
   /******** fields ********/
   --field-label-font-weight: 500;
@@ -80,16 +82,18 @@ button.circle-icon-button-container[disabled] .button-circle {
   height: auto;
 }
 
-.anvil-circle-icon-button .stepbar-left {
-  background: #d9d9d9;
-}
-
-.anvil-circle-icon-button .stepbar-right {
-  background: #d9d9d9;
-}
-
 .anvil-tooltip {
   display: none;
+  gap: 20px;
+}
+
+.anvil-webform-step-bar .anvil-circle-icon-button {
+  background-color: rgba(249, 247, 245, 1);
+  border-radius: 8px;
+}
+
+.anvil-webform-step-bar .anvil-circle-icon-button svg {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .anvil-webform-flow {
@@ -100,10 +104,6 @@ button.circle-icon-button-container[disabled] .button-circle {
 .anvil-button-bar {
   flex-direction: row-reverse;
   gap: 20px;
-}
-
-.anvil-webform-step-bar {
-  flex-direction: column-reverse;
 }
 
 .forge-page {
@@ -142,7 +142,23 @@ body .ant-form-item-has-error .ant-input:focus {
 .ant-btn.ant-btn-link,
 .ant-btn.ant-btn-link:hover,
 .ant-btn.ant-btn-link:active {
-  color: #111111;
+  color: #767676;
+}
+
+.anvil-button-bar .ant-btn-link,
+.anvil-button-bar .ant-btn-link:hover,
+.anvil-button-bar .ant-btn-link:focus,
+.anvil-button-bar .ant-btn-link:active {
+  background: #111111;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 0;
+}
+
+.anvil-button-bar .ant-btn-link::before {
+  content: '🔖';
+  font-size: 16px;
 }
 
 .anvil-content-card {
