@@ -77,6 +77,14 @@
   height: auto;
 }
 
+.anvil-circle-icon-button .stepbar-left {
+  background: #d9d9d9;
+}
+
+.anvil-circle-icon-button .stepbar-right {
+  background: #d9d9d9;
+}
+
 .anvil-tooltip {
   display: none;
 }
