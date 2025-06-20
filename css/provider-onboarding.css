@@ -27,7 +27,7 @@
   /* These are handled by .form-group input below */
   --field-input-background-color: transparent;
   --field-input-border-radius: 8px;
-  --field-input-border: 1px solid #777777;
+  --field-input-border: 2px solid #777777;
   --field-input-focus-border-color: #D9D9D9;
   --field-error-border-color: #C44040;
 
