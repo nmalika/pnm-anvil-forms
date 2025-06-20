@@ -173,10 +173,8 @@ body .ant-form-item-has-error .ant-input:focus {
   color: #767676;
 }
 
-.ant-btn.ant-btn-link,
-.ant-btn.ant-btn-link:hover,
-.ant-btn.ant-btn-link:active {
-  color: #767676;
+.anvil-webform-save-and-continue-button {
+  background: none;
 }
 
 .anvil-content-card {
