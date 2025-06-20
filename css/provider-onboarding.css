@@ -186,7 +186,7 @@ body .ant-form-item-has-error .ant-input:focus {
   color: #767676;
 } */
 
-.anvil-button-bar .anvil-button {
+/* .anvil-button-bar .anvil-button {
   background: #111111;
   color: white;
 }
@@ -194,7 +194,7 @@ body .ant-form-item-has-error .ant-input:focus {
 .anvil-webform-save-and-continue-button {
   background: #111111;
   color: white;
-}
+} */
 
 .anvil-content-card {
   border: none;
