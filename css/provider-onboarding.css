@@ -98,11 +98,6 @@ body .ant-form-item-has-error .ant-input:focus {
   border-right-width: 1px !important;
 }
 
-.form-group input:focus {
-  border: 1px solid #4a4dcd;
-  background-color: #F5F7FE;
-}
-
 .ant-btn {
   border-radius: 5px;
 }
