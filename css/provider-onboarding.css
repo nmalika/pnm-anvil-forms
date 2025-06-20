@@ -165,12 +165,12 @@ body .ant-form-item-has-error .ant-input:focus {
   border-right-width: 1px !important;
 }
 
-.ant-btn.ant-btn-cta,
+/* .ant-btn.ant-btn-cta,
 .ant-btn.ant-btn-cta:hover,
 .ant-btn.ant-btn-cta:active {
   background: #111111;
   color: #767676;
-}
+} */
 
 .anvil-webform-save-and-continue-button {
   background: none;
