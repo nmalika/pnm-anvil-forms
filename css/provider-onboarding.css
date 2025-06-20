@@ -26,10 +26,8 @@
   /******** field inputs ********/
   /* These are handled by .form-group input below */
   --field-input-background-color: transparent;
-  --field-input-focus-box-shadow: none;
   --field-input-border-radius: 8px;
   --field-input-focus-border-color: #D9D9D9;
-  --field-input-hover-border-color: #D9D9D9;
   --field-input-border: #D9D9D9;
   --field-error-border-color: rgba(196, 64, 64, 0.1);
 
@@ -168,9 +166,9 @@ button.circle-icon-button-container[disabled] .button-circle {
   margin-bottom: 24px;
 }
 
-.khwwsE {
+/* .khwwsE {
   max-width: 800px;
-}
+} */
 
 body .ant-input:hover,
 body .ant-input:focus,
