@@ -53,7 +53,6 @@
 
   --dropdown-placeholder-active-background: #E8E4FF;
   --dropdown-option-active-background-color: #E8E4FF;
-  --dropdown-menu-background: #F9F7F5;
 
   --dropzone-file-error-color: #C44040;
   --dropzone-border: 2px dashed #E0E0E0;
@@ -65,6 +64,9 @@
   --loading-spinner-color: #5100FE;
 
   --content-title-subtitle-color: #767676;
+
+  --review-data-card-edit-button-color: #5100FE;
+  --review-data-card-edit-button-hover-color: #E8E4FF;
 }
 
 html,
@@ -121,6 +123,11 @@ a:hover {
 
 .forge-flow {
   height: auto;
+}
+
+/* Review data title separator after Review Your Info */
+.dZMTCt::after {
+  display: none;
 }
 
 /* Uploader/dropzone */
