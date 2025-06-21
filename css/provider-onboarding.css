@@ -104,8 +104,12 @@ body,
   padding: 10px 15px;
 }
 
-button.circle-icon-button-container[disabled] .button-circle {
-  background: transparent !important;
+a:hover {
+  color: #5100FE;
+}
+
+a {
+  color: #E8E4FF;
 }
 
 .ant-btn.ant-btn-cta, .ant-btn.ant-btn-cta:hover, .ant-btn.ant-btn-cta:active {
