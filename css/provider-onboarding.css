@@ -61,16 +61,14 @@
   --dropzone-upload-button-color: #fff;
 
   --loading-spinner-color: #5100FE;
-
-  --root-link-color: #E8E4FF;
-  --root-link-hover-color: #5100FE; 
 }
 
 html,
 body,
 .forge-flow {
   font-family: 'Inter', serif;
-  background-color: #fff !important;
+  background-color: #F9F7F5 !important;
+  height: auto;
 }
 
 #header-title {
