@@ -17,6 +17,8 @@
   --button-disabled-color: #d9d9d9;
   --button-padding-y: 10px;
   --button-padding-x: 20px;
+  --button-background: #5100FE;
+  --button-color: #fff;
 
   /******** fields ********/
   --field-label-font-weight: 500;
