@@ -74,23 +74,9 @@ body,
   height: auto;
 }
 
-#header-title {
-  font-weight: 600;
-}
-
-#page-title {
-  margin-bottom: 20px;
-  font-weight: 600;
-}
-
-#page-title::after {
-  display: none;
-}
-
 .form-group {
   margin-bottom: 24px;
 }
-
 
 .form-group .ant-form-item-label {
   padding-bottom: 8px;
@@ -105,6 +91,11 @@ body,
   border-radius: 8px;
   font-size: 14px;
   padding: 10px 15px;
+}
+
+.forge-submit.anvil-button {
+  background: #111111;
+  color: #fff;
 }
 
 /* Add, Save Item inside the list objects */
