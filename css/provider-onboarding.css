@@ -61,6 +61,8 @@
   --dropzone-upload-button-color: #fff;
 
   --loading-spinner-color: #5100FE;
+
+  --content-title-subtitle-color: #767676;
 }
 
 html,
@@ -104,11 +106,11 @@ body,
   padding: 10px 15px;
 }
 
-a:hover {
+a {
   color: #5100FE;
 }
 
-a {
+a:hover {
   color: #E8E4FF;
 }
 
