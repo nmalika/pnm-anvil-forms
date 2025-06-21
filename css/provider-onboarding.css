@@ -110,6 +110,9 @@ body,
 .dbNvle .content {
   color: #E0E0E0;
 }
+.dbNvle:hover .content {
+  color: #E8E4FF;
+}
 
 a {
   color: #5100FE;
