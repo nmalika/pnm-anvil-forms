@@ -74,7 +74,8 @@ body,
 .forge-flow {
   font-family: 'Inter', serif;
   background-color: #F9F7F5 !important;
-  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;
 }
 
 .form-group {
@@ -122,7 +123,8 @@ a:hover {
 }
 
 .forge-flow {
-  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;
 }
 
 /* Review data title separator after Review Your Info */
@@ -201,7 +203,8 @@ a:hover {
 }
 
 .forge-page {
-  height: auto;
+  min-height: auto;
+  overflow-y: auto;
 }
 
 .forge-page-description {
